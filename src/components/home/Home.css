@@ -1,0 +1,33 @@
+.home-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.github-label {
+    width: 415px;
+    height: 81px;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.github-label-search {
+    font-family: Raleway;
+    font-weight: 200;
+    font-style: italic;
+}
+.search-btn{
+    background-color: #ac53f2;
+    color: #fff;
+    min-width: 100px;
+}
+.search-btn:hover{
+    color: #fff;
+    background-color: #8435c0;
+}

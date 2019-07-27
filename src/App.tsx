@@ -1,14 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import {HomeComponent} from './components/home/HomeComponent';
 import {SearchComponent} from './components/search/SearchComponent';
-
+import { HeaderComponent } from './components/header/HeaderComponent';
 const App: React.FC = () => {
   return (
-    <div className="container">
-      <SearchComponent/>
-    </div>
+    <section>
+      <HeaderComponent/>
+      <div>
+        <Router>
+          <Route exact path="/" component={HomeComponent}/>
+          <Route path="/search/:id" component={SearchComponent}/>
+          {/* <Route exact path="/" component={HomeComponent}/> */}
+        </Router>
+      </div>
+    </section>
   );
 }
 

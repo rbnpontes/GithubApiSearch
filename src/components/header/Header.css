@@ -1,0 +1,16 @@
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 2px 20px 5px #fff;
+}
+.header-field{
+    /* I've now that the prototype request a 25px in X and 30 in Y
+        but 'em' measure will prevent some responsiveness bugs */
+    padding: 1.9em 1.57em 1.9em 1.57em;
+}
+.nav-logo, .nav-logo *{
+    font-size: 1.2em;
+}

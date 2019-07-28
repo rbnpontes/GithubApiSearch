@@ -1,4 +1,3 @@
-import { } from 'redux';
 import { HeaderActionType, HeaderActionData, HeaderSearchAction } from './../../actions/index';
 export interface HeaderState {
     visible?: boolean;

@@ -33,7 +33,7 @@ export class HeaderComponent extends SearchBase {
                     <div className="col-md">
                         <form onSubmit={(e)=>this.trySearch(e)}>
                             <div className="ml-3 input-group">
-                                <input type="text" value={this.state.search} onChange={(e)=> this.handleSearch(e)} className="form-control" />
+                                <input type="text" name="search" value={this.state.search} onChange={(e)=> this.handleSearch(e)} className="form-control" />
                                 <div className="input-group-append">
                                     <button className="btn search-btn" type="submit">
                                         <span className="d-flex w-100 justify-content-center"><i className="material-icons">search</i></span>

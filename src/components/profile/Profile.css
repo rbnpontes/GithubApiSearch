@@ -1,0 +1,57 @@
+.profile-name{
+    color: #212529;
+}
+.profile-bio{
+    text-align: left;
+}
+.repo-star-count{
+    position: relative;
+    top: -0.4em;
+}
+.skeleton.picture, 
+.skeleton.profile-name, 
+.skeleton.profile-bio p,
+.skeleton.profile-details p,
+.skeleton.entries{
+    background-color: #e1e1e1;
+}
+.skeleton.picture {
+    width: 18em;
+    height: 18em;
+}
+.skeleton.profile-name {
+    margin-right: 25%;
+}
+.skeleton.profile-bio, .skeleton.profile-details{
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 16px;
+}
+.skeleton.profile-details{
+    display: block;
+}
+.skeleton.entries{
+    height: 4em;
+}
+.profile-icon{
+    display: inline-block;
+    background-image: url('../../assets/profile-icons.svg');
+    background-repeat: no-repeat;
+    background-size: 6.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+.profile-icon.company{
+    background-position-x: -3.3em;
+}
+.profile-icon.location{
+    background-position-x: -4.99em;
+}
+.profile-icon.box{
+    background-position-x: -1.6em;
+}
+.icon-fix{
+    display:inline-block;
+    position: relative;
+    top: -0.4em;
+}

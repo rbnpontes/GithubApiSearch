@@ -42,7 +42,7 @@ export class HomeComponent extends SearchBase {
                         <div className="row">
                             <div className="col">
                                 <div className="input-group">
-                                    <input type="text" value={this.state.search} onChange={e => this.handleSearchInput(e)} className="form-control" />
+                                    <input type="text" name="search" value={this.state.search} onChange={e => this.handleSearchInput(e)} className="form-control" />
                                     <div className="input-group-append">
                                         <button className="btn search-btn" type="submit">
                                             <span className="d-flex w-100 justify-content-center"><i className="material-icons">search</i></span>

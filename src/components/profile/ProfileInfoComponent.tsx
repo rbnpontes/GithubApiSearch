@@ -60,7 +60,7 @@ export class ProfileInfoComponent extends BaseComponent {
                             {this.getFieldHtml('location', this.state.user.location)}
                             {this.getFieldHtml('star_border', this.state.user.following, true)}
                             {this.getFieldHtml('box', this.state.user.reposCount)}
-                            {this.getFieldHtml('following', this.state.user.following)}
+                            {this.getFieldHtml('following', this.state.user.followers)}
                         </section>
                     </section>
                 </div>
